@@ -1,0 +1,36 @@
+.terminalSummaryGrid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-bottom: 5px;
+}
+
+.terminalSumDetailsGrid{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.terminalSummaryWidth{
+    max-width: 1000px;
+    margin-top: 10px;
+}
+
+.resetButton{
+    width: 70px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top:2px;
+    height:35px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: rgb(0, 72, 167);
+    border-color: rgb(0, 36, 78);
+    ;
+}

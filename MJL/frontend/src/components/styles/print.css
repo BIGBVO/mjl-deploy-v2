@@ -1,0 +1,18 @@
+@media all {
+    .page-break {
+      display: none;
+    }
+  }
+  
+@media print {
+    .page-break {
+        margin-top: 1rem;
+        display: block;
+        page-break-before: auto;
+    }
+  }
+  
+@page {
+    size: auto;
+    margin: 5mm;
+}
